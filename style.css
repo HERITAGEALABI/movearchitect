@@ -1,0 +1,778 @@
+  .flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+
+li {
+    list-style: none;
+    margin: 0 1.6vw;
+    font-size: 1.3vw;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 1vw;
+    font-family: sans-serif;
+  }
+  a:hover {
+    color: olive;
+  }
+  
+  header {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    height: 80px;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    white-space: nowrap;
+  }
+  
+  ul {
+    margin: 2vw;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+.active:hover{
+    color: coral;
+}
+
+nav i{
+    margin: 0 0 0 18vw;
+}
+
+ nav button{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-size: 14px;
+   padding: 13px 15px 21px 13px;
+text-align: center;
+   border: 1px solid #F2AA4C;
+color: #FFFFFF;
+
+position: absolute;
+background: #F2AA4C;
+border-radius: 4px;
+letter-spacing: 0.01em;
+width: 80px;
+height: 30px;
+/*
+margin: 0 0 24vw 0;
+*/
+line-height: 10px;
+ }
+    
+main h1{
+font-size: 50px;
+  color:black;
+  padding-top: 100px;
+  letter-spacing: -0.04em;
+
+  font-family: New York Extra Large;
+}
+main span{
+  color: #F2AA4C;
+}
+
+.section-one  img{
+  width: 500px;
+  max-width: 80%;
+}
+.section-one p{
+  color:black;
+  font-size: 20px;
+
+}
+.section-one button{
+  font-family: SF UI Display;
+  font-style: normal;
+  font-size: 14px;
+  padding: 8px 32px;
+text-transform: uppercase;
+text-align: center;
+ border: 1px solid #F2AA4C;
+color: #FFFFFF;
+
+position: absolute;
+background: #F2AA4C;
+border-radius: 4px;
+letter-spacing: 0.01em;
+width: 179px;
+height: 56px;
+}
+
+.section-two  h1{
+
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+
+  font-family: New York Extra Large;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+ 
+}
+.section-two .container{
+padding: 10px;
+margin: 25px;
+justify-content: space-around;
+}
+.section-three .illustration{
+  width: 500px;
+  max-width: 80%;
+}
+.section-three .content{
+  flex-direction: column;
+  margin: 0 0 0 6vw;
+}
+.section-three button{
+  width: 204px;
+height: 56px;
+padding: 8px 32px;
+border-radius: 4px;
+font-family: SF UI Display;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 40px;
+border: 1px solid #F2AA4C;
+background: #F2AA4C;
+color: #FFFFFF;
+}
+
+.section-four h2{
+font-size: 48px;
+font-family: New York Extra Large;
+font-style: normal;
+font-weight: bold;
+letter-spacing: -0.04em;
+}
+.section-four img{
+  position: absolute;
+margin: -2vw 0 0 11.5vw;
+}
+.section-four p{
+  margin: 0 0 0 18vw;
+  font-family: SF UI Display;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+letter-spacing: 0.01em;
+}
+.section-four .author{
+  text-align: center;
+  font-family: SF UI Display;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+letter-spacing: 0.01em;
+}
+
+.section-five{
+  justify-content: space-around;
+}
+.section-five img{
+  width: 300px;
+  max-width: 60%;
+  height: auto;
+  margin: 0 0  0 3vw;
+}
+
+.section-five .container h2{
+  font-family: New York Extra Large;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+margin: 12vw 0 0 7vw;
+/* or 60px */
+
+letter-spacing: -0.04em;
+}
+
+.section-five .container button{
+  
+background: #F2AA4C;
+border-radius: 4px;
+border: 1px solid #F2AA4C;
+padding: 8px 32px;
+width: 204px;
+height: 56px;
+text-align: center;
+color: #FFFFFF;
+}
+.section-seven{
+  justify-content:space-between ;
+}
+.section-seven .content{
+  margin: 12vw 0 0 8vw;
+ 
+}
+.section-seven h2{
+  font-family: New York Extra Large;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+letter-spacing: -0.04em;
+}
+.section-seven  .container span{
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+.section-seven .illustration{
+max-width: 80%;
+width: 727px;
+  height: auto; 
+  margin: 0 0 0 19vw;
+  
+}
+.section-seven .illustration1{
+  position: absolute;
+  max-width: 30%;
+  width: 480px;
+height: auto;
+left: 578px;
+top: 2900px;
+}
+.section-eight h2{
+  
+font-family: New York Extra Large;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+letter-spacing: -0.04em;
+}
+.section-eight .container{
+  justify-content: space-around;
+}
+.section-eight img{
+  width: 100px;
+  max-width: 40%;
+}
+footer{
+  margin: 10vw  0 0 0;
+}
+footer li{
+  font-size: 1vw;
+}
+footer nav .move{
+  margin: 0 0 0 25vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile view*/
+@media only screen and  (max-width:400px) {
+ 
+  .flex {
+    display: flex;
+  }
+  .row {
+    flex-direction: row;
+  }
+  .col {
+    flex-direction: column;
+  }
+  
+  li {
+      list-style: none;
+      margin: 0 1.6vw;
+      font-size: 1.8vw;
+    }
+    
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 1vw;
+      font-family: sans-serif;
+    }
+    a:hover {
+      color: olive;
+    }
+    
+    header {
+      position: fixed;
+      top: 0px;
+      right: 0;
+      left: 0;
+      height: 80px;
+      z-index: 1;
+      background-color: #fff;
+      box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav {
+      white-space: nowrap;
+    }
+    
+    ul {
+      margin: 2vw;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+    }
+  
+  .active:hover{
+      color: coral;
+  }
+  
+  nav i{
+      margin: 0 0 0 0;
+  }
+  
+   nav button{
+      font-family: SF UI Display;
+      font-style: normal;
+      font-size: 10px;
+     padding: 6.5px 7.5px 10.5px 7px;
+  text-align: center;
+     border: 1px solid #F2AA4C;
+  color: #FFFFFF;
+  
+  position: absolute;
+  background: #F2AA4C;
+  border-radius: 4px;
+  letter-spacing: 0.01em;
+  width: 50px;
+  height: 20px;
+  /*
+  margin: 0 0 24vw 0;
+  */
+  line-height: 10px;
+   }
+   
+   main h1{
+    font-size: 10vw;
+      color:black;
+      padding-top: 100px;
+      letter-spacing: -0.04em;
+    
+      font-family: New York Extra Large;
+    }
+    main span{
+      color: #F2AA4C;
+    }
+    .section-one{
+      justify-content: space-around;
+      
+    }
+    .section-one  img{
+      width: 400px;
+      max-width: 60%;
+      height: auto;
+      margin: 0 0 0 7vw;
+    }
+    .section-one p{
+      color:black;
+      font-size: 5vw;
+    
+    }
+    .section-one button{
+      font-family: SF UI Display;
+      font-style: normal;
+      font-size: 10px;
+      padding: 2px 4px;
+      margin: 0 0 0 0vw;
+    text-transform: uppercase;
+    text-align: center;
+     border: 1px solid #F2AA4C;
+    color: #FFFFFF;
+    
+    position: absolute;
+    background: #F2AA4C;
+    border-radius: 4px;
+    letter-spacing: 0.01em;
+    width: 100px;
+    height: 50px;
+    }
+    
+    .section-two  h1{
+    
+      text-align: center;
+      justify-content: center;
+      align-content: center;
+    margin: 19vw 0 0 0;
+      font-family: New York Extra Large;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15vw;
+     
+    }
+    .section-two .container{
+    padding: 30px;
+    margin: 25px;
+   
+    justify-content: space-around;
+    
+    }
+
+}
+
+
+@media only screen and  (max-width:770px) {
+  .flex {
+    display: flex;
+  }
+  .row {
+    flex-direction: row;
+  }
+  .col {
+    flex-direction: column;
+  }
+  
+  li {
+      list-style: none;
+      margin: 0 1.6vw;
+      font-size: 1.3vw;
+    }
+    
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 1vw;
+      font-family: sans-serif;
+    }
+    a:hover {
+      color: olive;
+    }
+    
+    header {
+      position: fixed;
+      top: 0px;
+      right: 0;
+      left: 0;
+      height: 80px;
+      z-index: 1;
+      background-color: #fff;
+      box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav {
+      white-space: nowrap;
+    }
+    
+    ul {
+      margin: 2vw;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+    }
+  
+  .active:hover{
+      color: coral;
+  }
+  
+  nav i{
+      margin: 0 0 0 18vw;
+  }
+  
+   nav button{
+      font-family: SF UI Display;
+      font-style: normal;
+      font-size: 14px;
+     padding: 13px 15px 21px 13px;
+  text-align: center;
+     border: 1px solid #F2AA4C;
+  color: #FFFFFF;
+  
+  position: absolute;
+  background: #F2AA4C;
+  border-radius: 4px;
+  letter-spacing: 0.01em;
+  width: 80px;
+  height: 30px;
+  /*
+  margin: 0 0 24vw 0;
+  */
+  line-height: 10px;
+   }
+      
+  main h1{
+  font-size: 50px;
+    color:black;
+    padding-top: 100px;
+    letter-spacing: -0.04em;
+  
+    font-family: New York Extra Large;
+  }
+  main span{
+    color: #F2AA4C;
+  }
+  
+  .section-one  img{
+    width: 500px;
+    max-width: 80%;
+  }
+  .section-one p{
+    color:black;
+    font-size: 20px;
+  
+  }
+  .section-one button{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-size: 14px;
+    padding: 8px 32px;
+  text-transform: uppercase;
+  text-align: center;
+   border: 1px solid #F2AA4C;
+  color: #FFFFFF;
+  
+  position: absolute;
+  background: #F2AA4C;
+  border-radius: 4px;
+  letter-spacing: 0.01em;
+  width: 179px;
+  height: 56px;
+  }
+  
+  .section-two  h1{
+  
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  
+    font-family: New York Extra Large;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and  (min-width:1150px) {
+ 
+  .flex {
+    display: flex;
+  }
+  .row {
+    flex-direction: row;
+  }
+  .col {
+    flex-direction: column;
+  }
+  
+  li {
+      list-style: none;
+      margin: 0 1.6vw;
+      font-size: 1.3vw;
+    }
+    
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 1vw;
+      font-family: sans-serif;
+    }
+    a:hover {
+      color: olive;
+    }
+    
+    header {
+      position: fixed;
+      top: 0px;
+      right: 0;
+      left: 0;
+      height: 80px;
+      z-index: 1;
+      background-color: #fff;
+      box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav {
+      white-space: nowrap;
+    }
+    
+    ul {
+      margin: 2vw;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+    }
+  
+  .active:hover{
+      color: coral;
+  }
+  
+  nav i{
+      margin: 0 0 0 18vw;
+  }
+  
+   nav button{
+      font-family: SF UI Display;
+      font-style: normal;
+      font-size: 14px;
+     padding: 13px 15px 21px 13px;
+  text-align: center;
+     border: 1px solid #F2AA4C;
+  color: #FFFFFF;
+  
+  position: absolute;
+  background: #F2AA4C;
+  border-radius: 4px;
+  letter-spacing: 0.01em;
+  width: 80px;
+  height: 30px;
+  /*
+  margin: 0 0 24vw 0;
+  */
+  line-height: 10px;
+   }
+      
+  main h1{
+  font-size: 50px;
+    color:black;
+    padding-top: 100px;
+    letter-spacing: -0.04em;
+  
+    font-family: New York Extra Large;
+  }
+  main span{
+    color: #F2AA4C;
+  }
+  
+  .section-one  img{
+    width: 500px;
+    max-width: 80%;
+  }
+  .section-one p{
+    color:black;
+    font-size: 20px;
+  
+  }
+  .section-one button{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-size: 14px;
+    padding: 8px 32px;
+  text-transform: uppercase;
+  text-align: center;
+   border: 1px solid #F2AA4C;
+  color: #FFFFFF;
+  
+  position: absolute;
+  background: #F2AA4C;
+  border-radius: 4px;
+  letter-spacing: 0.01em;
+  width: 179px;
+  height: 56px;
+  }
+  
+  .section-two  h1{
+  
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  
+    font-family: New York Extra Large;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+   
+  }
+  .section-two .container{
+  padding: 10px;
+  margin: 25px;
+  justify-content: space-around;
+  }
+  .section-three .illustration{
+    width: 500px;
+    max-width: 80%;
+  }
+  .section-three .content{
+    flex-direction: column;
+    margin: 0 0 0 6vw;
+  }
+  .section-three button{
+    width: 204px;
+  height: 56px;
+  padding: 8px 32px;
+  border-radius: 4px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 40px;
+  border: 1px solid #F2AA4C;
+  background: #F2AA4C;
+  color: #FFFFFF;
+  }
+
+}
