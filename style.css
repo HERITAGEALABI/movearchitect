@@ -631,6 +631,10 @@ footer nav .move{
 
 @media only screen and  (max-width:770px) {
   
+body {
+overflow-x: hidden;
+}
+
 
   nav ul.flex.row {
     padding-top: 80px;
